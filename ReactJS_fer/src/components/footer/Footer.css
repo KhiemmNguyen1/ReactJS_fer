@@ -1,0 +1,86 @@
+footer {
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.548);
+
+}
+
+.footer-logo {
+    margin-top: 20px;
+    width: 130px;
+    height: 60px;
+
+}
+
+.app img {
+    width: 120px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 100px 0 100px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.app {
+    display: flex;
+}
+
+.app img {
+    margin-right: 20px;
+}
+
+.app-kind {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.app-kind h5 {
+    border: 1px solid #756c67;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+footer h4 {
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+    color: #F3692E;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+    color: rgba(17, 20, 45, 1);
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(17, 20, 45, 1);
+    margin-bottom: 13px;
+}
+
+.follow {
+    color: rgb(37, 19, 2);
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .follow a {
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgba(17, 20, 45, 1);
+}
+
+footer .follow a:hover,
+footer a:hover {
+    color: rgb(245, 125, 13);
+}

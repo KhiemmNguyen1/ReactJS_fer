@@ -1,0 +1,55 @@
+* {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    /* margin-top: 110px; */
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.014);
+}
+
+/* Star Media Query */
+@media (max-width:799px) {
+
+    #navbar1 {
+        display: flex;
+        /* float: left; */
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: rgba(245, 125, 13, 0.479);
+        box-shadow: 0 40px 60px #000000a1;
+        padding: 80px 0 0 10px;
+        z-index: 1000;
+    }
+
+    #navbar1.active {
+        right: 0px;
+    }
+
+    #navbar1 li {
+        margin-bottom: 25px;
+    }
+
+    .mobile,
+    #mobile,
+    .bar {
+        display: flex;
+        align-items: center;
+    }
+
+    #navbar2 .lap {
+        display: none;
+        list-style: none;
+        overflow: hidden;
+        margin-top: 20px;
+
+    }
+}

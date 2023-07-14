@@ -1,0 +1,17 @@
+.about{
+    padding: 10rem 3rem 3rem 3rem;
+    background: #f8f8f8;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row .column{
+    width: 40%;
+}
+
+.column .tabs{
+    display: flex;
+}
