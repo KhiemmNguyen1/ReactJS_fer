@@ -111,11 +111,12 @@ const Description = () => {
             {product.guide4} <br />
             {product.guide5} <br />
           </Desc>
+
+          <Guide>Đánh giá người dùng </Guide>
         </ImgContainer>
 
         <InfoContainer>
           <Title> {product.title} </Title>
-
           <Desc>
             {product.description1} <br /> <br />
             {product.description2} <br /> <br />
@@ -126,12 +127,10 @@ const Description = () => {
             />{" "}
             {product.time} <br />
           </Desc>
-
           <Price>
             {" "}
             {product.price} <FontAwesomeIcon icon={faCoins} />
           </Price>
-
           <AddContainer>
             <Button
               className={`pro_bth ${isCodeReceived ? "code-received" : ""}`}
@@ -139,10 +138,11 @@ const Description = () => {
             >
               {isCodeReceived
                 ? "ĐÃ LẤY MÃ"
-                : `NHẬN MÃ NGAY${cartItems[PRODUCTS.id] > 0
-                  ? ` (${cartItems[PRODUCTS.id]})`
-                  : ""
-                }`}
+                : `NHẬN MÃ NGAY${
+                    cartItems[PRODUCTS.id] > 0
+                      ? ` (${cartItems[PRODUCTS.id]})`
+                      : ""
+                  }`}
             </Button>
           </AddContainer>
           <br /> <br />
